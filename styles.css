@@ -9,3 +9,22 @@ h2 {
   text-align: center;
   font-size: 40px;
 }
+
+.board {
+  height: 600px;
+  width: 600px;
+  box-sizing: border-box;
+}
+
+.row {
+  height: 33%;
+  display: flex;
+}
+
+.row div {
+  width: 33%;
+  border: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
